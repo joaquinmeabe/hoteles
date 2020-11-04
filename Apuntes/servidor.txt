@@ -1,0 +1,36 @@
+Windows PowerShell
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservadosWindows PowerShell                                                m
+Copyright (C) Microsoft Corporation. Todos los derechos reservadoWindows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.chos reservados.
+                                                   ma https://aka.ms/pscore6 
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS D:\Desktop\Hoteles> npm run dev
+
+> hoteles@1.0.0 dev D:\Desktop\Hoteles
+> lite-server
+
+Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...      
+** browser-sync config **
+{
+  injectChanges: false,
+  files: [ './**/*.{html,htm,css,js}' ],
+  watchOptions: { ignored: 'node_modules' },       
+  server: {
+    baseDir: './',
+    middleware: [ [Function (anonymous)], [Function (anonymous)] ]
+  }
+}
+[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.0.125:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ --------------------------------------
+[Browsersync] Serving files from: ./
+[Browsersync] Watching files...
+20.11.04 15:31:45 200 GET /index.html
+20.11.04 15:31:45 404 GET /favicon.ico
