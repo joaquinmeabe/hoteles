@@ -1,5 +1,5 @@
 .jumbotron{
-    background-color: yellow;
+    background-color: rgb(154, 103, 212);
     color: black;
     margin-top: 56px;
 }
@@ -8,9 +8,10 @@
 }
 footer{
     padding: 10px 10px 0 10px;
-    background-color: yellow;
+    background-color: rgb(154, 103, 212);
     margin-bottom: 0px;
     margin-top: 10px;
+    color: white;
 
 }
 .card-hotel{
@@ -21,4 +22,12 @@ footer{
 .btn-reserva{
     width: 100%;
      
+}
+h1{
+  color: rgb(243, 222, 222);  
+}
+
+.link-color{
+    color: rgb(243, 222, 222);  
+
 }
