@@ -20,7 +20,7 @@ footer{
 }
 .btn-reserva{
     width: 100%;
-    border-radius: 0px;
+    border-radius: 0px 0px 4px 4px;
      
 }
 h1{
@@ -28,6 +28,6 @@ h1{
 }
 
 .link-color{
-    color: rgb(243, 222, 222);  
+    color: rgb(255, 255, 255)!important;  
 
 }
