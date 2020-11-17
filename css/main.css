@@ -31,3 +31,7 @@ h1{
     color: rgb(255, 255, 255)!important;  
 
 }
+
+.tab-content{
+    padding-top: 10px;
+}
