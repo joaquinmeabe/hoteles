@@ -37,26 +37,37 @@
         </ol>
       </nav>
       <div class="row">
-        <div class="col-sm-4">
+          <div class="col-sm-4">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
+          </div>
+          <div class="col-sm-4">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multiCollapse2">¿Dónde puedo reservar?</button>
+          </div>
+          <div class="col-sm-4">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="multiCollapse3">¿Cómo pago?</button>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 collapse multi-collapse" id="funciona">
            <p>
              <h3>¿Cómo funciona?</h3>
              <p>Busca hoteles de acuerdo a tu preferencia</p>
            </p>
-          </div>      
-        <div class="col-sm-4">
+        </div>      
+        <div class="col-sm-4 collapse multi-collapse" id="reserva">
             <p>
               <h3>¿Donde puedo reservar?</h3>
               <p>Elegí la cuidad que te interese y luego realiza la reserva con tus datos.</p>
             </p> 
-           </div>
-           <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4 collapse multi-collapse" id="pago">
             <p>
               <h3>¿Cómo pago?</h3>
               <p>Utilizá tu tarjeta favorita.</p>
             </p> 
-           </div>
-        
+        </div>
       </div>  
+
       <hr>
       <img class="card-img-top mb-1" src="./imagenes/foto 00.jpg" alt="">
       <div class="d-flex flex-wrap flex-row-reverse">
