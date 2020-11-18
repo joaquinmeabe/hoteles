@@ -1,9 +1,13 @@
 .jumbotron{
-    background-color: rgb(154, 103, 212);
+    background-color: rgb(255, 255, 255);
     color: black;
     margin-top: 56px;
 }
-
+.jumbo{
+    background-image: url(/imagenes/09.jpg);
+    background-position-y: 30%;
+    background-size: 100%;
+}
 footer{
     padding: 10px 10px 0 10px;
     background-color: rgb(154, 103, 212);
