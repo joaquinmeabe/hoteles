@@ -1,5 +1,5 @@
 .jumbotron{
-    background-color: rgb(154, 103, 212);
+    background-color: #9a67d4;
     color: black;
     margin-top: 56px;
 }
@@ -10,7 +10,7 @@
 }
 footer{
     padding: 10px 10px 0 10px;
-    background-color: rgb(154, 103, 212);
+    background-color: #9a67d4;
     margin-bottom: 0px;
     margin-top: 10px;
     color: white;
