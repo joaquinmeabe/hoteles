@@ -2,43 +2,56 @@
   background-color: #9a67d4;
   color: black;
   margin-top: 56px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .jumbo {
   background-image: url(/imagenes/09.jpg);
   background-position-y: 30%;
-  background-size: 100%; }
+  background-size: 100%;
+}
 
 footer {
   padding: 10px 10px 0 10px;
   background-color: #9a67d4;
   margin-top: 10px;
   margin-bottom: 0px;
-  color: white; }
+  color: white;
+}
 
 .card-hotel {
   flex: 1 200px;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 .btn-reserva {
   width: 100%;
   border-radius: 0px 0px 4px 4px;
-  background-color: #5a889c; }
+  background-color: #5a889c;
+}
 
 h1 {
-  color: #f3dede; }
+  color: #f3dede;
+}
 
 .link-color {
-  color: white !important; }
+  color: white !important;
+}
 
 .tab-content {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 @media screen and (max-width: 600px) {
   .btn {
-    margin-bottom: 5px; } }
-
+    margin-bottom: 5px;
+  }
+}
 @media screen and (max-width: 600px) {
   .align-items-end {
-    position: absolute; } }
+    position: absolute;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
