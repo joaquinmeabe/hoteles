@@ -43,12 +43,12 @@ module.exports = function (grunt){
 
         imagemin: {
              dynamic: {
-                 files: [{
-                     expand: true,
-                     cwd: './',
-                     src: 'imagenes/*.{png,gif,jpg,jpeg}',
-                     dest: 'dist/'
-                  }]
+				files: [{
+					expand: true,
+					cwd: 'src/',
+					src: ['**/*.{png,jpg,gif}'],
+					dest: 'dist/'
+				}]
               }
         },
 
@@ -61,7 +61,18 @@ module.exports = function (grunt){
               src: ['*.html'],
               dest: 'dist'  
             }] 
-          }
+          },
+			fonts: {
+				files: [
+				{
+					//for font-awesome
+					expand: true,
+					dot: true,
+					cwd: 'node_modules/open-iconic/font',
+					src: ['fonts/*.*'],
+					dest: 'dist'
+				}]
+		     }		
         },
 
         clean: {
@@ -107,9 +118,9 @@ module.exports = function (grunt){
         useminPrepare: {
           foo: {
             dest: 'dist',
-            src: ['index.html', 'about.html', 'precios.html', 'contacto.html', 'terminosyCondiciones.html']
+            src: ['index.html', 'about.html', 'Precios.html', 'Contacto.html', 'Terminos.html']
           },
-          option: {
+          options: {
             flow: {
               steps: {
                 css: ['cssmin'],
@@ -132,7 +143,7 @@ module.exports = function (grunt){
         },
 
         usemin: {
-          html: ['dist/index.html', 'dist/about.html', 'dist/precios.html', 'dist/contacto.html', 'dist/terminos.html'],
+          html: ['dist/index.html', 'dist/about.html', 'dist/Precios.html', 'dist/Contacto.html', 'dist/Terminos.html'],
           options: {
             assetsDir: ['dist', 'dist/css', 'dist/js']
           }
@@ -140,7 +151,8 @@ module.exports = function (grunt){
   });
 
     
-    grunt.registerTask('css', ['sass']);
+    
+	grunt.registerTask('css', ['sass']);
     grunt.registerTask('default', ['browserSync', 'watch']);
     grunt.registerTask('img:compress', ['imagemin']);
     grunt.registerTask('build', [
